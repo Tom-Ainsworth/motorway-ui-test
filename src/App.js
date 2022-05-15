@@ -20,14 +20,16 @@ const App = () => {
     <div className='app'>
       {
         images && images.map(img => (
-          <div key={img.id} >
-            <img src={`${img.url}.jpg`} alt=''/>
-            <img src={`${img.user.profile_image}.webp`} alt=''/>
+          <div key={img.id}>
+            <img src={`${img.url}.jpg`} className='image-car hidden' alt='' />
+            <img src={`${img.user.profile_image}.webp`} className='image-profile' alt=''/>
           </div>
         ))
       }
     </div>
   );
 }
+
+
 
 export default App;
