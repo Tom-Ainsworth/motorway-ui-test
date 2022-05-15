@@ -1,10 +1,23 @@
 
 # Motorway UI Test
 
-
 Welcome to the Motorway UI technical test. This test focuses on user experience, and your skills with HTML, CSS, a11y and leveraging browser APIs.
 
+## My Notes
+I wanted to make use of some of the data in images.json and so opted for a card style page. The avengers images seemed like profile pictures, therefore I wanted to link a profile with their car
+I added the bio in as well as the names so they load dynamically, however I couldn't manage to get the correct cars to load for each profile. Currently the "See users car" button loads a modal of the final
+index's car. Were I to expand on this idea, I would load the cars based on their IDs or index values.
 
+To aid A11y I added the alt tags via the json data for each index, for both profile and car images (cars aren't dynamic yet though due to the above)
+
+The modal for the car features an ease-in-out transition from the top, with the ability to exit the modal by clicking away from it, rather than just clicking the close button.
+
+The form is quite basic, but includes everything suggested in the brief. I looked through the Motorway site to try and match some of the colours and style of the form as a whole, things like the placeholders and fonts.
+
+Media queries are in place for all components, and would definitely be improved with more time available, as it isn't as responsive as I'd like it to be on smaller screens.
+
+Overall the challenge was really fun! I learned a lot about React and picked up some good css tips from the examples given below. I look forward to hearing from you!
+Tom
 ## Set up
 
 This repo is a slightly modified Create React App and an Express server which serves a JSON feed of images.
