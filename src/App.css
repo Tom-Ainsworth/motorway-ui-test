@@ -2,7 +2,6 @@
   --columns: 2;
 }
 
-
 .app {
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
@@ -12,21 +11,42 @@
 .card {
   position: relative;
   display: flex;
+  min-height: 193px;
   padding: 10px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
 }
 
-.card img {
-  height: 100%;
+.image-profile {
+  height: 60%;
   width: 30%;
-  clip-path: circle(35% at 50% 40%);
+  clip-path: circle(30% at 50% 42%);
+}
+
+.image-car {
+  max-height: 80vh;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.modal-button {
+  min-height: 50px;
+  padding: 5px 15px;
+  display: block;
+  position: absolute;
+  bottom: 30px;
+  width: 30%;
+  text-align: center;
+  background-color: white;
+  border-radius: 30px;
 }
 
 .container {
-
   padding: 2px 16px;
+  width: 60%;
 }
 
 .hidden {
