@@ -20,9 +20,14 @@ const App = () => {
     <div className='app'>
       {
         images && images.map(img => (
-          <div key={img.id}>
+          <div key={img.id} className='card'>
             <img src={`${img.url}.jpg`} className='image-car hidden' alt='' />
-            <img src={`${img.user.profile_image}.webp`} className='image-profile' alt=''/>
+            <img src={`${img.user.profile_image}.webp`} alt=''/>
+            <div className='container'>
+              <h4>Name: {`${img.user.name}`}</h4>
+              <p>Bio: <br></br>
+              {`${img.user.bio}`}</p>
+            </div>
           </div>
         ))
       }
