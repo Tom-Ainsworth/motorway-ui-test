@@ -44,6 +44,11 @@
   border-radius: 30px;
 }
 
+.modal-button:hover {
+  color: white;
+  background-color: black;
+}
+
 .container {
   padding: 2px 16px;
   width: 60%;

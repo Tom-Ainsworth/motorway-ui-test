@@ -3,12 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Modal from './Modal/Modal'
+import Form from './Form/Form'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     <Modal />
+    <Form />
   </React.StrictMode>,
   document.getElementById('root')
 );
