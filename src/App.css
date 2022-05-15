@@ -6,22 +6,29 @@
 .app {
   display: grid;
   grid-template-columns: repeat(var(--columns), 1fr);
+  grid-column-gap: 20px;
 }
 
 .card {
+  position: relative;
   display: flex;
-  overflow: hidden;
-  align-items: center;
-  text-align: center;
   padding: 10px;
+  margin-bottom: 20px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 }
 
 .card img {
-  margin: auto auto;
-  clip-path: circle(50%)
+  height: 100%;
+  width: 30%;
+  clip-path: circle(35% at 50% 40%);
 }
+
+.container {
+
+  padding: 2px 16px;
+}
+
 .hidden {
   display: none;
 }

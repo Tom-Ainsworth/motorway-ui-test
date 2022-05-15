@@ -21,8 +21,8 @@ const App = () => {
       {
         images && images.map(img => (
           <div key={img.id} className='card'>
-            <img src={`${img.url}.jpg`} className='image-car hidden' alt='' />
-            <img src={`${img.user.profile_image}.webp`} alt=''/>
+            <img src={`${img.url}.jpg`} className='image-car hidden' alt={`${img.alt_description}`} />
+            <img src={`${img.user.profile_image}.webp`} alt={`Profile of ${img.user.name}`} />
             <div className='container'>
               <h4>Name: {`${img.user.name}`}</h4>
               <p>Bio: <br></br>
