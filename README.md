@@ -4,6 +4,8 @@
 Welcome to the Motorway UI technical test. This test focuses on user experience, and your skills with HTML, CSS, a11y and leveraging browser APIs.
 
 ## My Notes
+
+App tested in Chrome Version 101.0.4951.64 (Official Build) so please use this when reviewing if possible.
 I wanted to make use of some of the data in images.json and so opted for a card style page. The avengers images seemed like profile pictures, therefore I wanted to link a profile with their car
 I added the bio in as well as the names so they load dynamically, however I couldn't manage to get the correct cars to load for each profile. Currently the "See users car" button loads a modal of the final
 index's car. Were I to expand on this idea, I would load the cars based on their IDs or index values.
