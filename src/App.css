@@ -5,7 +5,6 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-
 }
 .app {
   display: grid;
@@ -17,6 +16,7 @@ body {
 
 .card {
   position: relative;
+  margin-bottom: 10px;
   width: 95%;
   display: flex;
   min-height: 193px;
@@ -60,8 +60,8 @@ body {
   text-align: center;
   background-color: #0560cc;
   color: #fff;
-  border-radius: 30px;
-  font-size: 16px
+  border-radius: 20px;
+  font-size: 14px;
 }
 
 .modal-button:hover {
@@ -78,7 +78,7 @@ body {
 
   .card {
     width: 80%;
-    margin: 0 auto;
+    margin: 10px auto;
   }
 }
 
